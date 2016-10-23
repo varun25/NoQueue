@@ -7,4 +7,5 @@ public class Constants {
 
     public static final String URL = "http://rvrs.netau.net/quappe/default.php?";
     public static final int platecount = 0 ;
+    public static final int platecount2 = 0 ;
 }

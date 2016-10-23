@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Qilla.iml" filepath="$PROJECT_DIR$/Qilla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Qillaa.iml" filepath="$PROJECT_DIR$/Qillaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

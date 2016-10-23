@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.reverse5minds.qilla.Activities.ShopsList$PlaceholderFragment">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/menupic"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary_light"
+        android:text="View Restaurant"
+        android:textColor="#FFF"
+        android:textStyle="italic"
+        android:id="@+id/openmenu"
+        android:onClick="viewrestaurant"
+        android:layout_gravity="bottom"/>
+
+</FrameLayout>

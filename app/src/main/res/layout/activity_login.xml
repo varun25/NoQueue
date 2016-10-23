@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.reverse5minds.qilla.Activities.LoginActivity">
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:background="#FFF"
+            android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon"
+                    android:layout_gravity="center"
+                    />
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:hint="Name"
+                    android:textColor="@color/primary_text"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/phno"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:hint="Mobile number"
+                    android:textColor="@color/primary_text"
+                    android:inputType="numberSigned"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:hint="Email"
+                    android:textColor="@color/primary_text"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/secondary_text"
+                    android:text="\nThis email will be used to verify you
+                    \nIf required an otp will be sent to your mobile number"
+                    />
+
+        </LinearLayout>
+    <!--</ScrollView>-->
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register / Login"
+        android:layout_gravity="bottom"
+        android:onClick="attemptLogin"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textStyle="italic" />
+
+</FrameLayout>
